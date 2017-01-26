@@ -7,7 +7,18 @@ def subtract(a, b)
   a - b
 end
 
-def sum[var]
-  if var=nil
+def sum(a)
+  total = 0
+  if var == []
     return 0
+  else
+    var.each { |x|
+      total += x
+    }
+    return total
+  end
+end
+
+def multiply(a, b)
+  a * b
 end
