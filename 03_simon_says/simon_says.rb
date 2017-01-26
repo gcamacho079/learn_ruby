@@ -27,6 +27,4 @@ def repeat(*args)
       "#{var} #{var}"
     end
   end
-  #num.times
-  #"#{var}"
 end
